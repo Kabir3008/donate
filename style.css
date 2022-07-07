@@ -8,6 +8,13 @@ section {
     margin-bottom: 100px;
 }
 
+h2 {
+    font-size: 30px;
+    text-align: left;
+    padding-top: 75px;
+    padding-left: 0%;
+}
+
 .cover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/donation13.jpg);
     background-repeat: no-repeat;
@@ -19,7 +26,9 @@ section {
 
 h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
+    font-weight: 200px;
+    /* padding-top: 75px; */
     /* color: white; */
 
 }
@@ -125,3 +134,88 @@ h1 {
     width: auto;
     size: 50px;
 } */
+
+.flexible-container {
+    display: flex;
+}
+
+.donate-plan {
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 10px 10px 40px gray; */
+
+}
+
+.donate-plan-text {
+    text-align: left;
+    text-align: justify;
+
+}
+
+#food {
+    background-image: url(icons/food.png);
+    background-repeat: no-repeat;
+    background-position: 20px 30px;
+    background-color: #edf5f6;
+    /* top: 100px; */
+    margin-left: 10%;
+    margin-right: 8px;
+}
+
+#shelter {
+    background-image: url(icons/shelter.png);
+    background-repeat: no-repeat;
+    background-position: 20px 30px;
+    background-color: #ffeeee;
+    margin-left: 3%;
+    margin-right: 8px;
+}
+
+#education {
+    background-image: url(icons/Frame-1.png);
+    background-repeat: no-repeat;
+    background-position: 20px 30px;
+    background-color: #fff4d6;
+    margin-left: 3%;
+    margin-right: 10%;
+
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: rgb(43, 41, 41);
+}
+
+.update {
+    background-color: rgba(162, 202, 200, 0.752);
+    padding: 75px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+}
+
+.subscribe {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 77, 77), tomato);
+    padding: 14px 44px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+#email {
+    padding: 10px 40px;
+}
+
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
+    color: #f44336;
+}
