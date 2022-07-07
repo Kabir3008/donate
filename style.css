@@ -204,7 +204,7 @@ footer {
 .subscribe {
     text-decoration: none;
     background-image: linear-gradient(rgb(255, 77, 77), tomato);
-    padding: 14px 44px;
+    padding: 14px 40px;
     color: white;
     font-weight: 700;
     border-radius: 5px;
@@ -222,3 +222,48 @@ footer h4 {
     padding-top: 30px;
     color: #f44336;
 }
+
+.first img {
+    padding-top: 15%;
+    width: 50%;
+    /* margin-left: -10%; */
+}
+
+
+
+.first {
+    width: 60%;
+    /* padding-left: 10%; */
+    top: 10%;
+}
+
+.latest-b {
+    text-decoration: none;
+    background-color: #4a9396;
+    padding: 10px 10px;
+    color: white;
+    font-weight: 700px;
+    border-radius: 5px;
+    position: absolute;
+    /* left: 50%;
+    top: 160%;
+    transform: translate(-50%, -50%); */
+}
+
+.bord {
+    padding-bottom: 80px;
+    box-shadow: 10px 10px 25px gray;
+    width: 70%;
+    padding-left: 10px;
+    margin-left: 15%;
+    /* margin-right: 5%; */
+    background-color: rgb(220, 225, 207);
+    box-sizing: 200px;
+}
+
+/* .new-head {
+    font-size: 30px;
+    text-align: left;
+    padding-top: -75px;
+    padding-left: 0%;
+} */
