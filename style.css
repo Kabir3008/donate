@@ -1,0 +1,127 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: -50px;
+}
+
+section {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.cover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    /* color: white; */
+
+}
+
+.head {
+
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* color: white;  */
+}
+
+.cover p {
+    position: absolute;
+    /* text-align: justify; */
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 77, 77), tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700px;
+    border-radius: 5px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gray-para {
+    margin-bottom: 50px;
+    color: gray;
+}
+
+.amount {
+    display: flex;
+
+}
+
+.amount-item {
+
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(247, 243, 243);
+
+}
+
+#one-tk {
+
+    margin-left: 20%;
+    margin-right: 1%;
+}
+
+#two-tk {
+
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 3px solid tomato;
+    background-color: rgb(240, 205, 211);
+    color: red;
+}
+
+#five-tk {
+
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#ten-tk {
+
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#fifty-tk {
+
+    margin-left: 1%;
+    margin-right: 20%;
+}
+
+.link-button1 {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 77, 77), tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 160%;
+    transform: translate(-50%, -50%);
+}
+
+/* .w3-input {
+    width: auto;
+    size: 50px;
+} */
