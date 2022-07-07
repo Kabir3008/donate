@@ -188,6 +188,9 @@ footer {
     text-align: center;
     color: white;
     background-color: rgb(43, 41, 41);
+    padding-bottom: 3%;
+
+
 }
 
 .update {
@@ -211,8 +214,8 @@ footer {
     padding: 10px 40px;
 }
 
-h4 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+footer h4 {
+    font-family: 'Lobster', cursive;
     font-style: italic;
     text-align: center;
     font-size: 25px;
